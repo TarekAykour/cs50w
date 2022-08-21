@@ -1,0 +1,100 @@
+* {
+    font-family: 'Product Sans';
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float: right;
+}
+
+li {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* form */
+form {
+    position: absolute;
+    width: 55%;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-35%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+    margin: auto;
+    grid-row: 1fr 1fr 1fr;
+    
+}
+
+img {
+    width: 25%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.input-field {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+    
+}
+.search {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 25px;
+    border: solid 1px rgb(201, 201, 201);
+    width: 100%;
+    margin: auto;
+    color: gray;
+}
+
+.search:hover {
+    box-shadow: 1px 1px 5px rgb(150, 150, 150);
+}
+.btns {
+    width: 25%;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap:wrap;
+    
+  
+}
+
+.btns input {
+
+    border: none;
+    padding: 10px;
+    background: rgb(238, 238, 238);
+    margin: auto;
+    cursor: pointer;
+    
+}
+
+svg {
+    width: 25px;
+    position: relative;
+    top: 3.2vh;
+    left: 1vh;
+}
+
+
+.btns input:hover {
+    box-shadow: 1px 1px 3px rgb(150, 150, 150);
+}
