@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="./advanced.css">
 </head>
 <body>
+    <a href="index.html">    <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png" width="400px">
+    </a>
+    <h3 class="advanced-txt">Advanced Search</h3>
+    <div class="underline"></div>
+    <div class="form-page">
+    <form class="advanced" action="https://www.google.com/search" method="GET">
+        <h3 class="find-page">Find pages With...</h3>
+        <div class="input-group">
+            <label for="">all these words:</label>
+            <input type="text" name="as_q">
+        </div>
+        <div class="input-group">
+            <label>this exact word or phrase:</label>
+            <input type="text" name="as_epq">
+        </div>
+        <div class="input-group">
+            <label for="">any of these words</label>
+            <input type="text" name="as_oq">
+        </div>
+        <div class="input-group">
+            <label for="">none of these words:</label>
+            <input type="text" name="as_eq">
+        </div>
+      
+        <input type="submit" value="Advanced Search">
+    
+    </form>
+</div>
     
 </body>
 </html>
